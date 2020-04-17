@@ -20,9 +20,7 @@ export class MenuDirective {
 
 }
 
-@Directive({
-  selector: '.navbar'
-})
+@Directive({selector: '.navbar'})
 export class NavbarDirective implements DoCheck, AfterViewInit {
 
   @ContentChild(BurgerDirective)
